@@ -188,3 +188,28 @@ SUITE FONCTIONS AVANCÉES
 =LIGNE ()
 
 arrondi.inf( nb/5 )+2
+-----------------------------
+CERCLE
+x = cos()*rayon+posx
+y = sin()*rayon+posy
+cercle entier 
+
+Calculs mathématiques
+->
+Pi:
+P = position
+i  = itération courante
+i-l : itération précédente
+P avec une fleche = Px et py 
+DeltaT = Temps écoulé entre i-1 et i
+Pxi = Pxi - 1 + Vxi -1 DeltaT (le triangle) + 1/2Axi-1 DeltaT^2
+Vxi = Vx i-1 + Axi-1 DeltaT
+
+Planète 1 
+
+->    ->
+Pki - Pji
+ax = Pxk: - Pxj:     Xplanète - xjoueur
+
+   ->    ->
+ ||Pk: - Pj:||       Xplanète - xjoueur ----- (Racine (Xk-Xj)^2 + (Yk-Yj)^2 + constante d Aarseth^2)^3/2  <- meme chose que l autre a gauche
